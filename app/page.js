@@ -14,10 +14,17 @@ import Topscroll from './components/Topscroll';
 const page = () => {
   return (
     <>
-    <ReactLenis root
-    options={{
-      lerp:0.05,
-    }}>
+<ReactLenis root
+  options={{
+    lerp: 0.05,
+    smooth: true,
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    infinite: false,
+    smoothTouch: true,
+    firefoxMultiplier: 30,
+  }}>
+
     <Navbar />
     <Hero />
        <Topscroll />

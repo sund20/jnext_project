@@ -24,7 +24,7 @@ const Hero = () => {
     <section
       id="home"
       ref={ref}
-      className="relative h-screen w-full overflow-hidden"
+      className="relative h-screen w-screen overflow-hidden"
     >
       {/* Hero image with scale */}
   
@@ -67,13 +67,13 @@ const Hero = () => {
             <p className="text-3xl font-semibold text-white font-Newsreader">
           Fuels what's NEXT
         </p>*/}
-         <div className='w-2/5 justify-center text-[min(10vw),2.5rem] '>  
-           <h1 className="text-4xl font-semibold text-white font-ovo">
+         <div className='w-2/5 justify-center text-[min(10vw),2.5rem]'>  
+           <h1 className="text-4xl font-semibold text-white font-ovo  leading-8">
 <span> Imagine </span>
-<span className='text-justify text-orange-500 bg-slate-50/20'>The Way</span>,
+<span className='text-justify text-orange-500 bg-slate-50/20 leading-10'>The Way</span>,
  <br /><span>Fueled by </span>
-<span className='text-justify text-orange-500 bg-slate-50/20'>Truth</span>, <br />
-<span className='text-justify text-orange-500 bg-slate-50/20'>Life</span> what’s next.
+<span className='text-justify text-orange-500 bg-slate-50/20 text-4xl leading-10'>Truth</span>, <br />
+<span className='text-justify text-orange-500 bg-slate-50/20 leading-10'>Life</span> what’s next.
         </h1></div> 
 
       </motion.div>

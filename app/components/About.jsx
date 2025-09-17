@@ -40,7 +40,7 @@ const About = () => {
     
 
     <section id="about" 
-      className="w-full min-h-screen  bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText relative"
+      className="w-screen min-h-screen  bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText relative"
     >
       {/* Sticky fading image */}
       <motion.div
@@ -82,10 +82,9 @@ const About = () => {
          className="mt-6 space-y-4 text-base leading-7 font-Ovo text-justify"
         >
         <p>
-I'm a versatile and creative web developer with hands-on experience in front-end and full-stack development. I specialize in crafting responsive, accessible, and visually engaging web experiences using modern technologies like HTML5, CSS, Sass, Bootstrap, Tailwind CSS, jQuery and JavaScript frameworks including working knowledge of, React, Next.js, and TypeScript.
-Proficient in VS Code and NetBeans, I also bring CMS platforms like WordPress, and have experience developing and managing content on LMS systems such as Moodle and Blackboard.
-With a strong foundation in design tools like Adobe Creative Suite and Dreamweaver, I bridge the gap between design and development, ensuring pixel-perfect implementations. I'm passionate about creating seamless user experiences and constantly evolving with the latest web standards and technologies.
-        </p>
+I'm a creative and versatile web developer with experience in both front-end and full-stack development. I build responsive, accessible, and visually appealing websites using modern tools like HTML5, CSS, Sass, Bootstrap, Tailwind CSS, jQuery, JavaScript, and frameworks like React and Next.js.
+I'm skilled with VS Code and NetBeans, and I also work with WordPress and learning platforms like Moodle and Blackboard. With a background in design tools such as Adobe Creative Suite and Dreamweaver.
+I'm passionate about user-friendly design and always stay up to date with the latest web technologies. </p>
 
       </motion.div>
         <motion.div 

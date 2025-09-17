@@ -37,7 +37,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full min-h-screen  bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText relative"
+      className="w-screen min-h-screen  bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText relative"
     >
       {/* Sticky fading image */}
       <motion.div

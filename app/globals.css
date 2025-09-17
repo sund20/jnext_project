@@ -17,6 +17,14 @@ Your custom fonts */
 html {
   scroll-behavior: smooth;
 }
+/* Custom global styles */
 body {
-  @apply bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText;
+  @apply bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText overflow-x-hidden antialiased;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+
+/* Optional: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }

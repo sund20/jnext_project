@@ -35,7 +35,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="w-full min-h-screen h-100 bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText"
+      className="w-screen min-h-screen h-100 bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText"
     >
       {/* Sticky background image */}
       <motion.div

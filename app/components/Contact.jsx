@@ -74,7 +74,7 @@ const Contact = () => {
   return (
    <section
      id="contact"
-     className="w-full min-h-screen relative bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText pb-10"
+     className="w-screen min-h-screen relative bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText pb-10"
    >
  {/* Sticky fading image */}
       <motion.div

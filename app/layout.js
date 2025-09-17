@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
       </head>
       <body
-        className={`${newsreader.variable} ${outfit.variable} ${ovo.variable} antialiased`}
+        className={`${newsreader.variable} ${outfit.variable} ${ovo.variable} antialiased overflow-x-hidden`}
       >
         <Topscroll />
         {children}

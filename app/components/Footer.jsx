@@ -6,7 +6,7 @@ import { assets } from '../../assets/assets';
 
 const Footer = () => {
   return (
-    <section className='w-full  bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText relative'>
+    <section className='w-screen bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText relative'>
       <div className='text-xs ps-24 pt-20 bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText'>
         <p>AdobeStock Image By: <i>DC Studio, MyCreative, agcreativelab, A Stockphoto, infiniteFlow, Take Production</i></p>
         <p>iStockphoto video By: <i>Kanenori</i></p>
