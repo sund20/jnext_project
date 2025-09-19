@@ -71,7 +71,7 @@ const Work = () => {
               initial={{ y: 48, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ ease: 'easeInOut', duration: 0.80 }}
-              className="w-[80vw] m-10 p-4 border-4 border-white shadow-xl shadow-gray-200/50 bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText dark:shadow-xl dark:shadow-orange-100/25 dark:border-darkTheme "
+              className="w-[80vw] m-10 p-4 border-4 border-white shadow-xl shadow-gray-200/50 bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText dark:shadow-xl dark:shadow-orange-500/25 dark:border-darkTheme "
             >
               <p className="text-sm font-Ovo">{project.date}</p>
 

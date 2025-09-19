@@ -108,7 +108,7 @@ const Skills = () => {
               key={index}
               className="flex items-center justify-center w-12 sm:w-14 aspect-square 
                          bg-white p-2 rounded-md border border-white shadow-xl 
-                         shadow-orange-200/50 dark:bg-darkBg dark:border-darkTheme"
+                         shadow-orange-500/50 dark:bg-darkBg dark:border-darkTheme"
             >
               <ToolIcon className="w-5 sm:w-7 h-5 sm:h-7 text-primary/100" />
             </li>
@@ -130,7 +130,7 @@ const Skills = () => {
                  <div
             className="px-4 py-10 rounded-lg border-4 border-white shadow-xl shadow-gray-200/50 
                        bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText 
-                       dark:shadow-xl dark:shadow-orange-400/25 dark:border-darkTheme 
+                       dark:shadow-xl dark:shadow-orange-500/25 dark:border-darkTheme 
                        hover:shadow-lg hover:-translate-y-1 transition-transform duration-500 
                        dark:hover:shadow-glow-rose group-hover:cursor-pointer"
           >
@@ -199,7 +199,7 @@ const Skills = () => {
               <div
             className="px-4 py-10 rounded-lg border-4 border-white shadow-xl shadow-gray-200/50 
                        bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText 
-                       dark:shadow-xl dark:shadow-orange-400/25 dark:border-darkTheme 
+                       dark:shadow-xl dark:shadow-orange-500/25 dark:border-darkTheme 
                        hover:shadow-lg hover:-translate-y-1 transition-transform duration-500 
                        dark:hover:shadow-glow-rose group-hover:cursor-pointer"
           >
@@ -255,7 +255,7 @@ const Skills = () => {
       className="w-full max-w-md"
     >
       <ul className="text-left text-base sm:text-lg font-Ovo list-disc list-inside bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText 
-                       dark:shadow-xl dark:shadow-orange-400/25 dark:border-darkTheme p-4 rounded-md shadow-md">
+                       dark:shadow-xl dark:shadow-orange-500/25 dark:border-darkTheme p-4 rounded-md shadow-md">
         <li>
           The Q Impact award for Moodle Theme and assisting Faculty Development Team
         </li>

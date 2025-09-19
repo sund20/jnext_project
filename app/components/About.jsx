@@ -93,7 +93,7 @@ I'm passionate about user-friendly design and always stay up to date with the la
   transition={{ duration: 0.8, ease: "easeInOut" }}
          className="flex flex-col md:flex-row-reverse items-start justify-center gap-10 mt-10 relative">
           {/* Profile Image */}
-          <div className=" sm:w-80 max-w-none border-1 border-stone-50 shadow-xl shadow-gray-200/50 bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText dark:shadow-xl dark:shadow-orange-100/25  top-0 w-full sm:flex sm:justify-center" >
+          <div className=" sm:w-80 max-w-none border-1 border-stone-50 shadow-xl shadow-gray-200/50 bg-stone-50 text-lightText dark:bg-darkBg dark:text-darkText dark:shadow-xl dark:shadow-orange-500/25  top-0 w-full sm:flex sm:justify-center" >
             <Image
               src={assets.p_profile}
               alt="Profile Image"
@@ -116,12 +116,13 @@ I'm passionate about user-friendly design and always stay up to date with the la
                   className="grid items-start space-x-4 border-[0.5px] border-gray-400 p-3 rounded-lg cursor-pointer bg-lightHover dark:hover:shadow-glow-orange dark:hover:-translate-y-1 
                   dark:shadow-xl dark:shadow-orange-400/25 dark:border-darkTheme hover:shadow-lg hover:-translate-y-1 transition-transform duration-500 dark:hover:shadow-glow-rose"
                 >
+                  <div className="flex flex-row items-center gap-4 mb-2">
                   <FontAwesomeIcon
                     icon={item.icon}
                     className="text-2xl text-orange-500 mt-1 justify-center"
-                  />
+                  /> <h3 className="text-lg font-semibold mt-0">{item.title}</h3></div>
                   <div>
-                    <h3 className="text-lg font-semibold mt-0 text-orange-500">{item.title}</h3>
+                   
                     <p className="text-sm">{item.description}</p>
                   </div>
                 </div>
