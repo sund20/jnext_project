@@ -84,7 +84,9 @@ const About = () => {
         <p>
 I'm a creative and versatile web developer with experience in both front-end and full-stack development. I build responsive, accessible, and visually appealing websites using modern tools like HTML5, CSS, Sass, Bootstrap, Tailwind CSS, jQuery, JavaScript, and Learning frameworks like React and Next.js.
 I'm proficient in Learning Management Systems platforms like Moodle and Blackboard. With a background in design tools such as Adobe Creative Suite and skilled with VS Code, Dreamweaver and NetBeans.
-I'm passionate about user-friendly design and always stay up to date with the latest web technologies. </p>
+I'm passionate about user-friendly design and always stay up to date with the latest web technologies. Completed Adobe Experience Manager Foundations and
+Working on my AEM certifications 
+</p>
 
       </motion.div>
         <motion.div 
