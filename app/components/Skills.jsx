@@ -148,7 +148,7 @@ const Skills = () => {
           </div></a>
             {/* Links  2 */}
                 <a
-                href="https://solis.ink/ProjCCTW915/index.html"
+                href="https://projcctw915.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-primary"
