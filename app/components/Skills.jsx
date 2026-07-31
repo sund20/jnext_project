@@ -123,7 +123,7 @@ const Skills = () => {
          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">
             {/* Links  1 */}
                       <a
-                href="https://solis.ink/TheProj22/index.html"
+                href="https://theproject2022.onrender.com"
                 target="_blank"
                 className="underline text-primary"
               >
