@@ -172,7 +172,7 @@ const Skills = () => {
           </a>
             {/* Links  3 */}
                  <a
-                href="https://solis.ink/MoodleHelp/index.html"
+                href="https://moodlehelp.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-primary"
